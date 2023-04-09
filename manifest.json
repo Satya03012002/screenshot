@@ -9,9 +9,9 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
-  "key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwX4dcp13bv2a+SDXWlGQmN6vfSsiaD7PE2zqSAlbkyBuozZNT/zFMj/ETgnETa4AH6rxY42KKxNGVSRjfeFoQ8z47jH7CGV3GRm+o7nrUeKRShTUQtBl5N9Q+7oCk0p1L/Qe72MW61Zp8FDfGzY0TTTNoDqqOu/s68b9teH+PBcwFED9S2gKalpD0a1zSgDGbeEBtMXzBBFQIrurqdNEs7lIwWBbxk+I0dV95jIu01Q1AV7ZbP5CPM+Qu8d1iefMcG44k/LRfFEVfZnucVVc+5/6RTFlO5FhlROY7RW8blnScw1HIylkUUrCYmhZwWEsjztG0AC1gzHKQTnQ9sJrSQIDAQAB",
+  "key":"###########",
   "oauth2": {
-    "client_id":"875899315313-qotie0885q446vsf9ooqli4fhm9l7sg5.apps.googleusercontent.com",
+    "client_id":"#####################",
     "scopes": [
         "profile email",
         "https://www.googleapis.com/auth/contacts"

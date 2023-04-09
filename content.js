@@ -1,3 +1,21 @@
+
+
+
+window.addEventListener("mouseup", function() {
+
+ 
+  var selectedText = window.getSelection().toString();
+  console.log(selectedText)
+
+});
+
+
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  console.log(request.message);
+});
+
+// window.addEventListener("click", function(event) {});
+
 chrome.runtime.onMessage.addListener((request) => {
     if (request.name !== 'endedRecording') {
       return;
@@ -24,4 +42,20 @@ chrome.runtime.onMessage.addListener((request) => {
     overlay.appendChild(video);
   
     document.body.appendChild(overlay);
+  });
+
+
+  // for youtube add
+  // setInterval(()=>{
+  //   let skipButton = document.getElementsByClassName("ypt-ad-skip-button");
+
+  //   if(skipButton != undefined && skipButton.length > 0){
+  //     console.log("add is detected");
+  //     skipButton[0].click();
+  //   }
+  // }, 3000)
+
+
+  chrome.storage.local.get(["key"]).then((result) => {
+    console.log("Value currently is " + result.key);
   });

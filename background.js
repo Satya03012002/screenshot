@@ -193,7 +193,7 @@ chrome.contextMenus.onClicked.addListener(async function (info, tab) {
 
 
 
-    const API_KEY = 'AIzaSyA1YCe2rEBj-oDF8OFi75DYdaf7xQARmWk';
+    const API_KEY = '#############################';
     let user_signed_in = false;
 
     chrome.identity.onSignInChanged.addListener(function (account_id, signedIn) {
